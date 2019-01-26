@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background-image: linear-gradient(to right bottom, #ff572255, #00adb555), url(../imgs/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #eeeeee;
+    font-family: Abel;
+    transition: background-image 0.5s;
+    
+}
+
+.h {
+    height: 50px;
+    background-color: #303841aa;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.h1 {
+    width: 50px;
+}
+.h2 {
+    display: flex;
+    width: 200px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px
+}
+.h2 span {
+    color: #ff5722;
+    transition: color 0.5s;
+}
+.h2:hover span {
+    color: #00adb5;
+}
+.h3 {
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    transition: color 0.4s, background-color 0.4s;
+    cursor: pointer;
+}
+.h3:hover {
+    color: #ff5722;
+}
+.s {
+    float: right;
+    width: auto;
+    z-index: 1;
+    transition: height 0.4s;
+    height: 0;
+    overflow: hidden;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.s1 {
+        background-color: #30384177;
+        width: 50px;
+        height: 100%;
+        float: right;
+        
+}
+.ss1 {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+.ss1:hover {
+    color: #ff5722;
+}
+.s2 {
+    float: right;
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.ss2 {
+    background-color: #30384144;
+    width: 0px;
+    height: 50px;
+    transition: width 0.2s, opacity 0.4s;
+    overflow: hidden;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0;
+    font-size: 16px;
+    border-radius: 25px 0 0 25px;
+}
